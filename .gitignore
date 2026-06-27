@@ -1,0 +1,111 @@
+# ─────────────────────────────────────────────────────────────
+# Secrets & credentials  (NEVER commit these)
+# ─────────────────────────────────────────────────────────────
+# Environment / config files that hold secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.env
+.envrc
+
+# Private keys, certificates, keystores
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+*.der
+*.keystore
+*.jks
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*.ppk
+
+# Cloud / service credentials
+*credentials*.json
+*service-account*.json
+gha-creds-*.json
+.aws/
+.gcloud/
+.azure/
+secrets.*
+secret.*
+*.secret
+*_secret*
+*.token
+.npmrc
+.pypirc
+.netrc
+
+# SSH / GPG
+.ssh/
+*.gpg
+*.asc
+
+# ─────────────────────────────────────────────────────────────
+# OS files
+# ─────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─────────────────────────────────────────────────────────────
+# Editor / IDE
+# ─────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+.history/
+
+# ─────────────────────────────────────────────────────────────
+# Logs & temp
+# ─────────────────────────────────────────────────────────────
+*.log
+logs/
+*.tmp
+*.temp
+tmp/
+temp/
+*.bak
+*.old
+
+# ─────────────────────────────────────────────────────────────
+# Dependencies & build output (common ecosystems)
+# ─────────────────────────────────────────────────────────────
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+.next/
+.cache/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Java / misc
+target/
+*.class
